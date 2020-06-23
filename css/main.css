@@ -400,10 +400,19 @@ h2 {
     transition: .3s ease-in-out;
 }
 
-.card.little {
+.card-small {
+    flex: 0 0 auto;
     width: calc(50vw - 3em);
     max-width: 200px;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    filter: drop-shadow(0 0 .5em rgb(0, 0, 0, 50%));
+    backdrop-filter: blur(.2em);
+    margin: 1em 1.5em;
+    transition: .3s ease-in-out;
 }
 
 .image-card {
@@ -815,7 +824,7 @@ h4 {
         font-size: 18px;
     }
 
-    .card:hover {
+    .card:hover, .card-small:hover {
         transform: translateY(-1em) rotate(3deg);
     }
 
