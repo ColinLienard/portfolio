@@ -230,7 +230,7 @@ h1 {
     width: fit-content;
     box-shadow: 0 0 .5em .05em var(--color-lightblue-50-opacity),
                 0 0 .5em .05em var(--color-lightblue-50-opacity) inset;
-    margin: 0 auto 8em auto;
+    margin: 0 auto 20vh auto;
     transition: .3s ease-in-out;
 }
 
@@ -266,7 +266,7 @@ h1 {
     font-weight: 700;
     text-transform: uppercase;
     color: var(--color-lightblue);
-    opacity: 3%;
+    opacity: .03;
     margin: 0;
     white-space: nowrap;
     position: absolute;
@@ -307,7 +307,7 @@ h1 {
 .cadrillage-background {
     position: relative;
     width: 30em;
-    opacity: 50%;
+    opacity: .5;
     filter: blur(.2em);
     top: -20vh;
     left: 10vw;
@@ -421,7 +421,7 @@ h2 {
     height: 300px;
     background-size: cover;
     max-width: 100%;
-    opacity: 50%;
+    opacity: .5;
     border-radius: 2em;
     transition: .3s ease-in-out;
 }
@@ -710,6 +710,10 @@ h4 {
         font-size: 64px;
     }
 
+    .button {
+        margin-bottom: 8em;
+    }
+
     .description {
         font-size: 16px;
         margin: 0 10em;
@@ -829,7 +833,7 @@ h4 {
     }
 
     .card:hover .image-card {
-        opacity: 100%;
+        opacity: 1;
     }
 
     h4 {
